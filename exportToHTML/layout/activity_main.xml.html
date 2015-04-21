@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: rgb(0,0,0); font-weight: normal; font-style: normal; }
+.s0 { }
+.s1 { color: rgb(0,0,128); font-weight: bold; }
+.s2 { color: rgb(0,0,255); font-weight: bold; }
+.s3 { color: rgb(0,128,0); font-weight: bold; }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#C0C0C0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+activity_main.xml</FONT>
+</center></TD></TR></TABLE>
+<pre>
+
+<span class="s0">&lt;</span><span class="s1">RelativeLayout </span><span class="s2">xmlns:android=</span><span class="s3">&quot;http://schemas.android.com/apk/res/android&quot;</span><span class="s0"> 
+    </span><span class="s2">xmlns:tools=</span><span class="s3">&quot;http://schemas.android.com/tools&quot; </span><span class="s2">android:layout_width=</span><span class="s3">&quot;match_parent&quot;</span><span class="s0"> 
+    </span><span class="s2">android:layout_height=</span><span class="s3">&quot;match_parent&quot; </span><span class="s2">android:paddingLeft=</span><span class="s3">&quot;@dimen/activity_horizontal_margin&quot;</span><span class="s0"> 
+    </span><span class="s2">android:paddingRight=</span><span class="s3">&quot;@dimen/activity_horizontal_margin&quot;</span><span class="s0"> 
+    </span><span class="s2">android:paddingTop=</span><span class="s3">&quot;@dimen/activity_vertical_margin&quot;</span><span class="s0"> 
+    </span><span class="s2">android:paddingBottom=</span><span class="s3">&quot;@dimen/activity_vertical_margin&quot; </span><span class="s2">tools:context=</span><span class="s3">&quot;.MainActivity&quot;</span><span class="s0"> 
+    </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/relativeLayout&quot;</span><span class="s0"> 
+    </span><span class="s2">android:background=</span><span class="s3">&quot;@drawable/appbackground1&quot;</span><span class="s0">&gt; 
+ 
+ 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textAppearance=</span><span class="s3">&quot;?android:attr/textAppearanceLarge&quot;</span><span class="s0"> 
+        </span><span class="s2">android:text=</span><span class="s3">&quot;App Alpha&quot;</span><span class="s0"> 
+        </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/textView&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignParentTop=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_centerHorizontal=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textColor=</span><span class="s3">&quot;#ffffffff&quot; </span><span class="s0">/&gt; 
+ 
+    &lt;</span><span class="s1">ImageButton</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/profileButton&quot;</span><span class="s0"> 
+        </span><span class="s2">android:src=</span><span class="s3">&quot;@mipmap/ic_launcher&quot;</span><span class="s0"> 
+        </span><span class="s2">android:clickable=</span><span class="s3">&quot;false&quot;</span><span class="s0"> 
+        </span><span class="s2">android:background=</span><span class="s3">&quot;@null&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_below=</span><span class="s3">&quot;@+id/textView&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignParentLeft=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignParentStart=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_marginTop=</span><span class="s3">&quot;41dp&quot;</span><span class="s0"> 
+        </span><span class="s2">android:tint=</span><span class="s3">&quot;#ffffffff&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_toLeftOf=</span><span class="s3">&quot;@+id/userTxt&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_toStartOf=</span><span class="s3">&quot;@+id/userTxt&quot; </span><span class="s0">/&gt; 
+ 
+    &lt;</span><span class="s1">ImageButton</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/gamesButton&quot;</span><span class="s0"> 
+        </span><span class="s2">android:src=</span><span class="s3">&quot;@mipmap/games_ic&quot;</span><span class="s0"> 
+        </span><span class="s2">android:background=</span><span class="s3">&quot;@null&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignTop=</span><span class="s3">&quot;@+id/profileButton&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignParentRight=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignParentEnd=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignBottom=</span><span class="s3">&quot;@+id/gameTxt&quot;</span><span class="s0"> 
+        </span><span class="s2">android:tint=</span><span class="s3">&quot;#ffffffff&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_toRightOf=</span><span class="s3">&quot;@+id/userTxt&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_toEndOf=</span><span class="s3">&quot;@+id/userTxt&quot; </span><span class="s0">/&gt; 
+ 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textAppearance=</span><span class="s3">&quot;?android:attr/textAppearanceSmall&quot;</span><span class="s0"> 
+        </span><span class="s2">android:text=</span><span class="s3">&quot;Profile&quot;</span><span class="s0"> 
+        </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/profileTxt&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textAlignment=</span><span class="s3">&quot;center&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_marginLeft=</span><span class="s3">&quot;38dp&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_marginStart=</span><span class="s3">&quot;38dp&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textColor=</span><span class="s3">&quot;#ffffffff&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignBottom=</span><span class="s3">&quot;@+id/profileButton&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignParentLeft=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignParentStart=</span><span class="s3">&quot;true&quot; </span><span class="s0">/&gt; 
+ 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textAppearance=</span><span class="s3">&quot;?android:attr/textAppearanceSmall&quot;</span><span class="s0"> 
+        </span><span class="s2">android:text=</span><span class="s3">&quot;  Games&quot;</span><span class="s0"> 
+        </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/gameTxt&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textColor=</span><span class="s3">&quot;#ffffffff&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignBottom=</span><span class="s3">&quot;@+id/profileButton&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignLeft=</span><span class="s3">&quot;@+id/gamesButton&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_alignStart=</span><span class="s3">&quot;@+id/gamesButton&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_marginLeft=</span><span class="s3">&quot;31dp&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_marginStart=</span><span class="s3">&quot;31dp&quot; </span><span class="s0">/&gt; 
+ 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textAppearance=</span><span class="s3">&quot;?android:attr/textAppearanceMedium&quot;</span><span class="s0"> 
+        </span><span class="s2">android:text=</span><span class="s3">&quot;*USER NAME*&quot;</span><span class="s0"> 
+        </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/userTxt&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_centerVertical=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_centerHorizontal=</span><span class="s3">&quot;true&quot;</span><span class="s0"> 
+        </span><span class="s2">android:textColor=</span><span class="s3">&quot;#fffffdfb&quot; </span><span class="s0">/&gt; 
+ 
+    &lt;</span><span class="s1">ImageView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:id=</span><span class="s3">&quot;@+id/imageView&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_below=</span><span class="s3">&quot;@+id/textView&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_centerHorizontal=</span><span class="s3">&quot;true&quot; </span><span class="s0">/&gt; 
+ 
+    ListView 
+        android:layout_width=&quot;wrap_content&quot; 
+        android:layout_height=&quot;wrap_content&quot; 
+        android:id=&quot;@+id/listView&quot; 
+        android:layout_below=&quot;@+id/userTxt&quot; 
+        android:layout_centerHorizontal=&quot;true&quot; 
+        android:layout_alignParentBottom=&quot;true&quot; /&gt; 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+    </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+    </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot; </span><span class="s0">/&gt; 
+    android:id=&quot;@+id/firstFav&quot; 
+    android:text= &quot;FavoriteGame&quot; /&gt; 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot; </span><span class="s0">/&gt; 
+        android:id=&quot;@+id/secondFav&quot; 
+        android:text= &quot;2ndFavoriteGame&quot; /&gt; 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot; </span><span class="s0">/&gt; 
+        android:id=&quot;@+id/thirdFav&quot; 
+        android:text= &quot;3rdFavoriteGame&quot; /&gt; 
+    &lt;</span><span class="s1">TextView</span><span class="s0"> 
+        </span><span class="s2">android:layout_width=</span><span class="s3">&quot;wrap_content&quot;</span><span class="s0"> 
+        </span><span class="s2">android:layout_height=</span><span class="s3">&quot;wrap_content&quot; </span><span class="s0">/&gt; 
+        android:id=&quot;@+id/fourthFav&quot; 
+        android:text= &quot;4thFavoriteGame&quot; /&gt; 
+&lt;/</span><span class="s1">RelativeLayout</span><span class="s0">&gt; 
+</span></pre>
+</body>
+</html>
